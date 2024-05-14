@@ -1,0 +1,9 @@
+@use './base/index' as b;
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:hsl(0, 0%, 100%);
+}
