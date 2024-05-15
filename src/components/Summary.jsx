@@ -22,14 +22,16 @@ export default function Summary() {
   }
 
   return (
-    <section>
-      <h2>This is Summary</h2>
+    <section className="summary_section">
+      <h2>Summary</h2>
       <ul>
         {data.map((summary) => (
           <SummaryData key={summary.category} summary={summary} />
         ))}
       </ul>
-      <a href="#">Continue</a>
+      <a href="#" className="continue_btn">
+        Continue
+      </a>
     </section>
   );
 }

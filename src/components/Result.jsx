@@ -3,12 +3,15 @@ export default function Result() {
     <section className="result_section">
       <h2>Your Result</h2>
       <div className="result">
-        76 <span>of 100</span>
+        <p>76</p>
+        <p>of 100</p>
       </div>
-      <h3>Great</h3>
-      <p>
-        You scored higher than 65% of the people who have taken these tests.
-      </p>
+      <div className="feedback_container">
+        <h3>Great</h3>
+        <p className="feedback">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
     </section>
   );
 }

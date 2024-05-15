@@ -1,5 +1,18 @@
 @font-face {
     font-family: 'CustomFont';
-    src: url('../fonts/CustomFont-Regular.woff2') format('ttf');
-}
+    src: url('../fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+  }
   
+body {
+    font-family: "CustomFont";
+    font-size:18px;
+}
+
+.result_section{
+    text-align: center;
+
+    h2{
+        font-size:1em;
+        font-weight: 500;
+    }
+}
