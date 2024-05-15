@@ -1,6 +1,6 @@
 export const fetchData = async () => {
   try {
-    const response = await fetch("../data.json"); // Adjust path as needed
+    const response = await fetch("./data.json"); // Adjust path as needed
     if (!response.ok) {
       throw new Error("Failed to fetch data");
     }
