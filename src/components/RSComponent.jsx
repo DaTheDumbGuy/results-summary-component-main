@@ -5,7 +5,7 @@ export default function RSComponent() {
   return (
     <article className="rs_container">
       <Result />
-      <Summary />
+      {/* <Summary /> */}
     </article>
   );
 }
