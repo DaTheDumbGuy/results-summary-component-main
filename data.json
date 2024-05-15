@@ -7,7 +7,7 @@
   {
     "category": "Memory",
     "score": 92,
-    "icon": "public/images/icon-memory.svg"
+    "icon": "./images/icon-memory.svg"
   },
   {
     "category": "Verbal",
